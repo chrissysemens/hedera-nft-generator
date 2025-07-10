@@ -1,0 +1,35 @@
+{
+  "name": "nft-api",
+  "version": "1.0.0",
+  "description": "Express API to generate and mint NFT badge images using Hedera and Web3.Storage (W3UP)",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts"
+  },
+  "author": "Chrissy Semens",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.67.0",
+    "@web3-storage/access": "^20.3.0",
+    "@web3-storage/w3up-client": "^17.3.0",
+    "axios": "^1.10.0",
+    "canvas": "^3.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "form-data": "^4.0.3",
+    "fs-extra": "^11.3.0",
+    "mime-types": "^2.1.35"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/fs-extra": "^11.0.4",
+    "@types/mime-types": "^3.0.1",
+    "@types/node": "^20.5.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.2.0"
+  }
+}

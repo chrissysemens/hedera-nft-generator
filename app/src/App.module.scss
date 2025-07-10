@@ -1,0 +1,17 @@
+.app {
+  margin: auto;
+  padding: 0.5rem 4rem;
+  font-family: sans-serif;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 2;
+}
